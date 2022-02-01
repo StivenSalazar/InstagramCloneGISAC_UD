@@ -12,7 +12,7 @@
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 30%;
-    margin: 10px auto;
+    margin: 24px auto;
 }
 
 .card-img>img {
@@ -53,6 +53,23 @@
     margin-left: 10px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
+}
+
+.accountHeader {
+    height: 69px;
+    width: 614px;
+    display: flex;
+}
+
+.accountHeaderName {
+    padding-top: 20px;
+}
+
+.accountLogo {
+    height: 32px;
+    width: 32px;
+    margin: 14px 4px 0px 16px;
+    border-radius: 60%;
 }
 
 .accountName {
